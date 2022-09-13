@@ -8,11 +8,13 @@ while ans != "n":
             print(i)
         elif i>100:
             r = 0
-            while i != 0:
-                number = i
+            number = i
+            while number > 0:
                 d = number%10
                 r = r*10+d
-                i = number//10
+                number = number//10
             if number == i:
                 print(i)
+            else:
+                None
     ans = input("press n to stop")
