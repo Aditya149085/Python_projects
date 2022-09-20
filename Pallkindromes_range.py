@@ -13,7 +13,7 @@ while ans != "n":
                 d = number%10
                 r = r*10+d
                 number = number//10
-            if number == i:
+            if r == i:
                 print(i)
             else:
                 None
